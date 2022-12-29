@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+}
+
+
+body{
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+   background-color: #F3F5FC;
+}
+
+.logo{
+   position: absolute;
+   left: 7%;
+   top: 8%;
+}
+
+
+#box-esq{
+   display: flex;
+   flex-direction: column;
+   height: 944px;
+   width: 1000px;
+}
+
+#novotexto{
+   margin: 100px;
+   width: 873px;
+   height: 685px;
+   border: none;
+   font-size: 32px;
+   background-color: #F3F5FC;
+   color: #0A3871;
+   border: none;
+}
+
+.aviso{
+   display: flex;
+   margin-left: 110px;
+}
+
+#botao{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 10px;
+}
+
+#criptografa{
+   height: 67px;
+   width: 328px;
+   border-radius: 24px;
+   padding: 24px;
+   background-color: #0A3871;
+   text-align: center;
+   cursor: pointer;
+}
+
+#descriptografa{
+   height: 67px;
+   width: 328px;
+   border-radius: 24px;
+   padding: 24px;
+   border: 2px solid #0A3871;
+   text-align: center;
+   cursor: pointer;
+}
+
+#box-dir{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 400px;
+   height: 944px;
+   background-color: white;
+   border-radius: 32px;
+   box-shadow: 0px 24px 32px -8px #00000014;
+}
+
+#textopronto{
+   display: none;
+   margin: 32px;
+   width: 336px;
+   height: 757px;
+   font-size: 24px;
+   border: none;
+}
+
+.content-dir{
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.content-dir > h1,p{
+   text-align: center;
+   padding: 5px;
+}
+
+
+#copia{
+   height: 67px;
+   width: 328px;
+   border-radius: 24px;
+   padding: 24px;
+   border: 2px solid #0A3871;
+   text-align: center;
+   margin: 10px auto;
+   cursor: pointer;
+}
+
+
+@media (max-width: 1024px) {
+
+   body{
+      flex-direction: column;
+   }
+
+   #box-esq{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      height: 600px;
+      width: 750px;
+   }
+
+   #novotexto{
+      margin-top: 70px;
+      margin-bottom: 10px;
+      width: 630px;
+   }
+
+   .content-dir > img{
+      display: none;
+   }
+
+   #box-dir{
+      margin: auto;
+      height: 300px;
+      width: 680px;
+   }
+
+   #textopronto{
+      width: 600px;
+      min-height: 100px;
+   }
+
+}
